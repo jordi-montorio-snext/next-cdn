@@ -54,21 +54,21 @@ const theme = {
         .chatbot-container {
             border-radius: 5px !important;
         }
-`,
+    `,
     chatWindow: {
         showTitle: true,
         showAgentMessages: false,
         title: 'TXEN AI',
         titleAvatarSrc: 'help-icon.svg',
         welcomeMessage: '¡Hola! ¿En qué puedo ayudarte?',
-        errorMessage: 'Â¡Ups! Parece que algo saliÃ³ mal. Por favor, intenta nuevamente.',
+        errorMessage: '¡Ups! Parece que algo salió mal. Por favor, intenta nuevamente.',
         backgroundColor: '#f9f9fb',
         height: 700,
         width: 400,
         fontSize: 14,
         starterPrompts: [
-            "Â¿Como hago una factura?",
-            "Â¿CÃ³mo configurar mi NextGO?"
+            "¿Como hago una factura?",
+            "¿Cómo configurar mi NextGO?"
         ],
         starterPromptFontSize: 14,
         clearChatOnReload: false,
@@ -92,7 +92,7 @@ const theme = {
             textColor: '#303235',
             sendButtonColor: '#ff8200',
             maxChars: 100,
-            maxCharsWarningMessage: 'Has superado el lÃ­mite de caracteres. Por favor, ingresa menos de 100.',
+            maxCharsWarningMessage: 'Has superado el límite de caracteres. Por favor, ingresa menos de 100.',
             autoFocus: true,
             sendMessageSound: true,
             sendSoundLocation: 'send_message.mp3',
@@ -113,6 +113,6 @@ const theme = {
             companyLink: 'https://servicenext.eu'
         }
     }
-}
+};
 
-export default theme;
+export default theme; 
