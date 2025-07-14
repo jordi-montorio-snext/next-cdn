@@ -60,7 +60,7 @@ const theme = {
         showAgentMessages: false,
         title: 'TXEN AI',
         titleAvatarSrc: 'help-icon.svg',
-        welcomeMessage: 'Â¡Hola! Â¿En quÃ© puedo ayudarte?',
+        welcomeMessage: '¡Hola! ¿En qué puedo ayudarte?',
         errorMessage: 'Â¡Ups! Parece que algo saliÃ³ mal. Por favor, intenta nuevamente.',
         backgroundColor: '#f9f9fb',
         height: 700,
