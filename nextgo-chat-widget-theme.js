@@ -1,7 +1,7 @@
 const theme = {
     button: {
         backgroundColor: '#ff8200',
-        bottom: 20,
+        bottom: 32,
         size: 48,
         dragAndDrop: false,
         iconColor: 'white',
@@ -14,14 +14,14 @@ const theme = {
     },
     customCSS: `
         button[part=button] {
-            left: 20px !important;
+            left: 29px !important;
             border-radius: 5px !important;
             color: white !important;
             height: 42px !important;
         }
 
         div[part=bot] {
-            left: 20px !important;
+            left: 29px !important;
             transform-origin: left bottom !important;
             font-family: 'Inter', sans-serif !important;
             line-height: 1.5 !important;
