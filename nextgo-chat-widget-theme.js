@@ -113,5 +113,6 @@ const theme = {
             companyLink: 'https://servicenext.eu'
         }
     }
+}
 
 export default theme;
